@@ -2,11 +2,12 @@ package pers.javaSE.algorithm;
 
 public class Test {
     public static void main(String[] args){
-        for(int i=0;i<8;i++){
-            if((i&1)==0){
-                continue; // 该关键字的作用是，返回循环入口。不执行后面的语句
-            }
-            System.out.println(i);
-        }
+       String s1= "abcdefg";
+       String s2 = "dee";
+       // str1.indexOf(str2)返回str2字符串在str1中第一次出现的位置
+       System.out.println(s1.indexOf(s2));
     }
+
+
+
 }

@@ -17,8 +17,8 @@ public class QuickSortAlgorithm {
         }
         swap(arr,left+(int)Math.random()*(right-left+1),right);
         int[] p = partition(arr,left,right);
-        quickSort(arr,left,p[0]-1);
-        quickSort(arr,p[1]+1,right);
+        quickSort(arr,left,p[0]);
+        quickSort(arr,p[1],right);
     }
 
     public static int[] partition(int[] arr,int left,int right){
@@ -37,7 +37,7 @@ public class QuickSortAlgorithm {
         // 此时，枢轴值的下标在more的前一位。最终more指向的大于区域的第一个数。它的前一个数，肯定是枢轴值的下标
         swap(arr,more,right);
         // 返回的是等于区间的范围
-        return new int[]{less+1,more};
+        return new int[]{less,more+1};
 
     }
 

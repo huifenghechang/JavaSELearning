@@ -1,4 +1,4 @@
-package pers.javaSE.algorithm.base;
+package pers.javaSE.algorithm.base.sortAlgotitm;
 
 public class HeapSortAlgorithm {
 
