@@ -1,2 +1,2 @@
 # JavaSELearning
-the note of learning Java SE 
+Java 基础语法学习笔记
